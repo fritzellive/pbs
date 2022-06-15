@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Potato Rei</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <thing id="thing">
+    <div class="container">
+        <img class="img" src="farmwithrei.jpg">
+        <div class="mission">Today's Mission:<br>Get 20 Potatoes</div>
+        <div id="potatoes" style="color: black; position: absolute; top: 32%; left: 40%; transform: translate(-50%, -50%);">I Have 0 Potatoes<br>Now</div>
+        <div id="money" style="font-size: 18px; color: black; position: absolute; top: 43%; left: 61%; transform: translate(-50%, -50%);">Your Balance Is 500$ Sir</div>
+        <div class="list"><img src="listlvl2.jpg"></div>
+    </div>
+
+    <div class="option-bar">
+        <ul>
+            <li><button id="level2to3" style="display: none;"><a href="level3.html">Next Level</a></button></li>
+          <li><button onclick="buy()">Buy Potato</button></li>
+          <li><button onclick="sell()">Sell Potato</button></li>
+          <li><button onclick="steal()">Steal</button></li>
+        </ul>
+      </div>
+    </thing>
+    <h1 id="lose" style="display: none; color: white;">YOU DROWNED IN FUCKIN DEBT!<br>YOU LOST!!! L<br><a style="text-decoration: none; color: white;" href="index.html">Retry</a></h1>
+</body>
+<script src="lvl2.js"></script>
+</html>

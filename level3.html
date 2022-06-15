@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Potato Rei</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <thing id="thing">
+    <div class="container">
+        <img class="img" src="setupwithrei.jpg">
+        <div class="mission">Today's Mission:<br>Get 15 Potatoes</div>
+        <div id="games" style="font-size: 17px; color: black; position: absolute; top: 32%; left: 44%; transform: translate(-50%, -50%);">Give Games</div>
+        <div id="potatoes" style="font-size: 23px; color: black; position: absolute; top: 42%; left: 67%; transform: translate(-50%, -50%);">I Want Potatoes!</div>
+        <div id="gamescounter" style="color: white; position: absolute; top: 10%; left: 25%; transform: translate(-50%, -50%);">Your Games: 10</div>
+        <div id="potatoescounter" style="color: white; position: absolute; top: 15%; left: 25%; transform: translate(-50%, -50%);">Your Potatoes: 0</div>
+        <div class="list"><img src="listlvl3.jpg"></div>
+        <div style="position: absolute; top: 60%; left: 10%; transform: translate(-50%, -50%);"><img src="Sans titre(3).jpg"></div>
+    </div>
+
+    <div class="option-bar">
+        <ul>
+            <li><button id="finishbutton" style="display: none;"><a href="actualEndings.html">Press Me UwU</a></button></li>
+          <li><button onclick="buy()">Buy Potato</button></li>
+          <li><button onclick="savesta()">Savesta (1 in 5 Chance)</button></li>
+          <li><button><a href="endings.html">Be His B!tch</a></button></li>
+          <li><button onclick="steal()">Steal</button></li>
+        </ul>
+      </div>
+    </thing>
+    <h1 id="lose" style="display: none; color: white;">YOU DROWNED IN FUCKIN DEBT!<br>YOU LOST!!! L<br><a style="text-decoration: none; color: white;" href="index.html">Retry</a></h1>
+    <h1 id="savestalose" style="display: none; color: white;">Savesta Killed You Lmao<br><a style="text-decoration: none; color: white;" href="index.html">Retry</a></h1>
+</body>
+<script src="lvl3.js"></script>
+</html>

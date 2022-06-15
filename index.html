@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Potato Rei</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <img class="img" src="shopwithrei.jpg">
+        <div class="bubble"><img src="bubble.png"></div>
+        <div class="bubblemoney"><img src="bubble.png"></div>
+        <div class="mission">Today's Mission:<br>Get 10 Potatoes</div>
+        <div class="centered" id="potatoes">I Have 0 Potatoes<br>Now</div>
+        <div class="centeredmoney" id="money">Your Balance Is 1000$ Sir</div>
+        <div class="list"><img src="list.jpg"></div>
+    </div>
+
+    <div class="option-bar">
+        <ul>
+          <li><button id="level1to2" style="display: none;"><a href="level2.html">Next Level</a></button></li>
+          <li><button onclick="buy()">Buy Potato</button></li>
+          <li><button onclick="sell()">Sell Potato</button></li>
+          <li><button onclick="follow()">Follow Fritzel</button></li>
+        </ul>
+      </div>
+</body>
+<script src="lvl1.js"></script>
+</html>
